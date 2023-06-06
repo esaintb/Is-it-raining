@@ -96,7 +96,7 @@ body {
 }
 
 .header {
-    color: rgb(239, 239, 245);
+    color: rgb(255, 255, 255);
     font-size: 22px;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
@@ -140,7 +140,7 @@ body {
 
 .description {
     text-align: center;
-    color: rgba(231, 233, 234, 0.633);
+    color: rgba(255, 255, 255, 0.633);
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
     font-size: 13px;
@@ -158,17 +158,17 @@ body {
 
 .high {
     padding-right: 3px;
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
 }
 
 .low {
     padding-left: 3px;
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
 }
 
 .humidity {
     text-align: center;
-    color: antiquewhite;
+    color: rgb(255, 254, 254);
     font-size: 12px;
     padding-bottom: 0px;
     font-family: 'Quicksand', sans-serif;
@@ -177,8 +177,8 @@ body {
 
 .hourlyForecastLabel {
     position: absolute;
-    color: aliceblue;
-    color: #fff;
+    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     max-width: 375;
     margin-top: 174px;
     padding-left: 25px;
@@ -216,7 +216,7 @@ body {
     flex: 0 0 auto;
     text-align: center;
     background-color: rgba(180, 0, 0, 0.09);
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
     font-size: 11px;

@@ -70,8 +70,11 @@ export default function CurrentWeather({ lat, long, hourlyTemps, token, setWeath
                     <div className="cardBody">
                         <div className="tempIconBucket">
                             <div className="iconContainer">
-                                <div className='icon'>
+                                {/* <div className='icon'>
                                     <img src={`http://openweathermap.org/img/w/${weatherIcon}.png`} alt="icon"></img>
+                                </div> */}
+                                <div className='icon'>
+                                    <img src={`http://openweathermap.org/img/w/10d.png`} alt="icon"></img>
                                 </div>
                             </div>
                             <div className="temp">
@@ -80,7 +83,8 @@ export default function CurrentWeather({ lat, long, hourlyTemps, token, setWeath
                         </div>
                         <div className="currentWeatherInfo">
                             <div className="description">
-                                {data.weather[0].description}
+                                light rain
+                                {/* {data.weather[0].description} */}
                             </div>
                             <div className="highLowBox">
                                 <div className="high">
